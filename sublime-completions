@@ -1,5 +1,5 @@
 !!! il copiati, creati un notepad, apoi il redenumiti in cmds.sublime-completions, iar apoi il adaugi in Sublime > Packages > User
-
+!!! trebuie sa aveti instalat pawn pe sublime
 
 {
     "scope": "source.pawn",
