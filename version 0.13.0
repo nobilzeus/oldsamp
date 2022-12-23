@@ -1,0 +1,81 @@
+rezolvat un bug la biciclete
+rezolvat un bug la accesori
+adaugat House upgrade in /housemenu pentru a iti cumpara radio / house premium / house vip
+adaugat sistem de furniture {
+	adaugat House Furniture in /housemenu pentru a iti cumpara / edita / sterge furniture
+	doar pt casele premium / vip
+	casele normale nu pot avea furniture
+	casele premium pot avea 25 furniture
+	casele vip pot avea 50 furniture
+	pentru a edita / sterge un item trebuie sa selectectezi din meniu, apoi poti apasa pe itemul pe care vrei
+}
+scoasa comanda /buylevel, acum faci lv up cand ai atins xp necesar
+modificate unele masini la joburi in functie de skill
+adaugata comanda /editclan /deleteclan /asellclanhq /editclanhq /findclanhq /moveclanhq
+acum cand cumperi o masina pt clan se va spawna intr-o parcare random de pe toata mapa
+acum sunt 379 de locuri in care se poate seta pozitia cand cumperi o masina/masina clan sau cand dai /unstuck la masina
+adaugat sistem de login que {
+	cand intri pe server primesti un nr in login que, umtilmul din lista, deci daca iesi de pe sv si intri iar, iar vei fi ultimul
+	se pot loga in acelasi timp maxim MAX_LOGIN_CONEXION de persoane
+	cand cineva este in login si sa logat sau a primit kick pt inactivitate, un slot se elibereaza, si urmatorul player din que se poate loga si tot asa
+	daca numarul tau din que este <= MAX_LOGIN_CONEXION, vei fi logat imediat
+	daca numarul tau din que este > MAX_LOGIN_CONEXION, locul tau din que este (nr tau - MAX_LOGIN_CONEXION)
+	ex: MAX_LOGIN_CONEXION = 20
+	nrtaudinque = 5; >>> te loghezi
+	nrtaudinque = 25; >>> esti in que pe locul 25-20 = 5, esti locul 5 in que 
+}
+cand dai restart, in ultimele 20 de secunde nu se mai pot folosii comenzi
+cand aprinzi serverul, in primele 20 de secunde nu se pot folosii comenzi
+Adaugat furnitures si pentru clanhq, 50 de obiecte
+adaugat sistem de ruleta {
+	sitemul este facut in totalitate de mine
+	culorile se aleg inainte de spin random, nu e nici un script sa sti ce va pica
+	culorile se afiseaza in ordine una dupa alta
+	se afiseaza per spin, 50 de culori, dintre care 1 singura va fi verde
+	rosu =2x, negru= 2x, green= 14x
+	daca iesi de pe server in timp ce pariai, primesti banii inapoi
+	poti paria doar pe o singura culoare
+}
+adaugat sistem de billboard {
+	adaugate 26 de panouri in cele 3 orase
+	adaugate comenzile /gotobb, /buybillboard, /mybb, /asellbb
+	poti cumpara 1 panou daca nu ai premium, 3 panouri cu cont premium, 5 panouri cu cont vip
+	toate se pot modifica din comanda /mybb - acolo poti edita textul si fontul, sa vezi locatia si informatiile despre billboardul tau
+	poti inchiria un billboard intre 4-24 ore, acesta expira automat
+}
+modificat sistemul de cont premium pe zile
+adaugat Daily Reward Crate, cand completezi toate taskurile din /dailyreward primesti un crate {
+	rewarduri: iron skin, bronze skin, cash, experience, rob points
+}
+schimbate textdraw-urile de la logo si fps 
+adaugat GIFTBOX {
+	se poate activa/dezactiva din comanda /functions
+	sunt 3 pozitii in care se poate spawna giftul, pozitia se alege la login
+	la payday primesti 25 gift points daca ai fost activ, 10 daca ai fost afk
+	ai nevoie de 100 gift points pt a folosii /getgift
+	premii: goldskin,ironskin,bronzeskin,bani,xp,giftpoints
+}
+adaugat sistem de tutorial {
+	tutorialul dureaza in jur de 5 min
+	nu ii poti da skip
+	daca iesi in timp ce faceai tutorialul progresul se salveaza
+	tutorialul este in alt vw
+	in tutorial ti se introduc informatii despre server, apoi urmeaza sa dai examenul de condus, sa iti cumperi un telefon si sa alegi alt skin
+	dupa ce termini te spawneaza la spawn civil si primesti un dialog pt referral, sa introduci codul de refferal daca tea adus cnva
+	amnadoi primiti recompense
+}
+sistemul de referral modificat {
+	modificarea consta in: 
+	cel care completeaza tutorialul si foloseste codul de ref al cuiva primeste urmatoarele:
+	-- job boost 50% timp de 10 ore
+	- experienta crescuta cu 50% timp de 10 ore
+	- cont PREMIUM timp de 10 zile
+	Bonusuri viitoare:
+	- la nivel 5 vei primi 100 gift points
+	- la nivel 7 vei primi un Daily Reward Crate
+	- la nivel 10 vei primi un Skin Gold
+	- la nivel 20 vei primi 20 puncte premium
+}
+adaugata comanda /admin sa iti dai admin
+adaugata o verificare cand spawnezi masini, daca nu sunt sloturi libere nu se spawneaza
+la cont normal poti spawna doar 2 masini, la cont premium poti spawna in acelasi timp pana la 5 masini
