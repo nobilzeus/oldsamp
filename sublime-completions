@@ -1,3 +1,6 @@
+!!! il copiati, creati un notepad, apoi il redenumiti in cmds.sublime-completions, iar apoi il adaugi in Sublime > Packages > User
+
+
 {
     "scope": "source.pawn",
     "completions": [
