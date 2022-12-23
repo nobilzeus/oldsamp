@@ -53,3 +53,19 @@ lucruri noi:
 -adaugat un nou bind pentru prieteni, cand apesi tasta y se deschide /friends, acesta se deschide doar daca alta actiune nu este activa cand apesi y
 -adaugat un sisteme de pin, comenzile /pin, /setpin
 Pinul se va putea schimba cu un ticket pe panel pentru mai multa siguranta
+
+lucruri rezolvate:
+rezolvat un bug la log_kills/deaths
+modificari:
+-scos sistemul de barbut
+lucruri noi:
+-adaugate comenzile /suspend /suspendoff /gotom /aaa2 /getip /ip /up /down /muteoff /unmute /unmuteoff /dsprice /warnoff /unwarn /unwarnoff /restart 
+/cancelrestart /cmotd /mylp /givekey /throwkey
+-cand iti expira licenta de masina/boat/fly te da afara din respectivul vehicul care iti expira
+-cand iti expira licenta de arme primesti disarm
+-adaugat daily quest Truth, poti face 10 poze in fiecare zi, dupa ce faci 10 poze, poti face al doilea task sa omori 10 extrateresti, pentru amandoua primesti un radar, le poti face pe amandoua in acelasi timp. se reseteaza la ora 00
+-de acum KM se contorizeaza bine, cati metri mergi atatea km se adauga
+-adaugat walkie talkie, comenzile /setfreq /wt /freqmembers
+-walkie talkie se salveaza cand iesi de pe sv
+-adaugat promo code, /generatepromos <nr de coduri random>, /generatepromo cash exp , /usepromo
+-adaugate pacanele la casino (slots)
