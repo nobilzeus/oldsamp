@@ -1,2 +1,2 @@
 # oldsamp
-Arhive pentru update-uri
+# Arhiva pentru update-uri
