@@ -1,0 +1,55 @@
+lucruri rezolvate:
+-rezolvat un bug la clan
+-rezolvat un bug la vitezometru pentru rentcars
+-rezolvat un bug la anticheat
+-rezolvate unele buguri la antihackuri
+-rezolvat un bug la moartea vehiculelor
+-rezolvat un bug la clanuri
+
+modificari:
+-adaugate mai multe clan hq
+-adaugate mai multe masini pe server
+-adaugate mai multe masini in rent car
+-adaugate mai multe masini in dealer ship
+-adaugate mai multe case
+-adaugate mai multe achievements
+-adaugate mai multe misiuni
+-adaugate mai multe poziiti pentru spawnul la cumpararea masinii
+-adaugate mai multe pozitii pentru unstuck car
+-modificate preturile din ds
+-micsorata raza pentru mapicon la case/bizuri/joburi/clanhq
+-scos sistemul de ATM, inutil
+-anti cheatu a fost imbunatatit, (in special anti weapon-hack si fakedamage/death)
+-de acum masinile spawnate de admini se despawneaza la moarte
+-de acum poti folosii comanda /buycar si la dealership in LS
+
+lucruri noi:
+-adaugate mai multe anti-cheatsss (fake-kill,fake-damage,airbreak,fly,bad bullet,crasher)
+-adaugat pawnraknet pentru unele anti-cheatsss
+-adaugata comanda /vsearch
+-adaugat payday, din ora in ora
+-adaugat DMV, licenta de condus
+-adaugata comanda /exam, /licenses
+-adaugata comanda /gethere
+-adaugat jobul WoodCutter
+-de acum poti ascunde mesajele de ajutor de la joburi din /hud
+-adaugat un textdraw langa bani care iti spune cati bani ai luat la job ( + $55  )
+-de acum tunningul/paintjob se salveaza, pretul de tunning este fee bizului
+-adaugat carplate, comanda /carplate
+-adaugat un textdraw pentru zonele fara coliziune la masini
+-adaugata comanda /unrentroom
+-adaugata comanda /time
+-adaugata comanda /buylevel
+-adaugat afk kick, cand serverul este plin jucatorii cu afk peste 30 minute vor primii kick
+-adaugat in /v la masini sa poti scoate tunningul de pe masina
+-adaugat sistem de emailuri, comanda /emails, emailurile sunt contectate cu panelu
+-adaugat o protectie pt cbug
+-adaugat un sistem de prieteni, comanda /friends unde poti vedea prieteni si sa ii stergi
+-adaugat DeathMessage atunci cand mori
+-adaugat last7 si last30, last 7 se reseteaza in fiecare luni la 0, si last 30 in fiecare zi pe 1 la ora 0
+-adaugat jobul bus driver, curse LS-LV, LV-LS
+-adaugate comenzile: /areaarmour /areafreeze /areaunfreeze /areadisarm /arearepair /checkvehicles /checkweapons /freeze /unfreeze /agl
+/pay /set /panel /forum /discord /colors /carcolor /swapcolors /eject /clearchat /aclear /entercar /cw /quitclan /cinvite /afklist /count
+-adaugat un nou bind pentru prieteni, cand apesi tasta y se deschide /friends, acesta se deschide doar daca alta actiune nu este activa cand apesi y
+-adaugat un sisteme de pin, comenzile /pin, /setpin
+Pinul se va putea schimba cu un ticket pe panel pentru mai multa siguranta
