@@ -1,0 +1,59 @@
+sistemul de vehicule personale a mai fost optimizat
+rezolvate anumite buguri la masini
+rezolvat un bug la bizuri
+speedometrul se afiseaza acum si pentru pasagerii din masina 
+adaugat anti weapon-hack, facut de mine
+adaugate loguri pt warnings ( atunci cand primeste kick, ban, mute )
+adaugat un mesaj catre admini cand conduci cu peste 220 km/h  / kick la viteza mare
+adaugata comanda /editbiz
+adaugata comadna /givebiz
+adaugata comanda /asellbiz
+adaugat un sistem de masini dynamice
+adaugata comanda /addservervehicle
+adaugata comanda /editservervehicle
+adaugata comanda /parkservervehicle
+adaugata comanda /deleteservervehicle
+adaugata comanda /vehname
+adaugata o functie pentru a trimite mesaje de peste 128 caractere pe 2 randuri
+adugate la toate functiile de incarcare a datelor din baza de date o verificare pentru a vedea daca mai sunt sloturi libere, 
+in caz ca nu sunt sloturi libere functia se opreste si primesti o eroare si un pont unde trebuie sa modifici ca sa cresti sloturile valabile, buna pentru incepatori si gm nu mai primeste crash sau erori in consola
+rezolvat un bug la verificarea la email
+schimbata syntaxa de verifica pentru parole la regex
+adaugata comanda /rac
+---
+modificat sistemul de vehicule personale, acum cand iesi de pe server masina nu se va mai distruge instant, timerul de despawnare al masinii v-a verifica atunci cand se distruge masina, daca detinarul masinii este on, daca nu este masina este stearsa de pe server
+cum este si pe serverele mari, cand iesi de pe server nu dispare masina instant, e chiar o idee buna
+---
+multe modificari aduse serverului, comenzilor si aspectului
+acum cand cumperi o masina din ds se scad stockurile
+adaugata o protectie pentru admini cu o parola speciala, parola o setezi cand vrei cu comanda /adminpass ca admin, parola poate fi resetata doar de un fondator, iar la logare daca contul tau are parola de admin si esti admin, pana nu bagi parola nu ai acces la cont
+acum radiourile din bizuri se aduna cu cele din masini
+adaugat bizul tau in /stats
+modificat speedometrul (acum daca masina nu este detinuta de cineva, nu iti va mai arata locked/unlocked)
+rezolvat un bug atunci cand primeste damage
+--
+adaugat un sistem de safezone
+adaugata comanda /addsafezone
+adaugata comanda /safezones (editsafezone pos,range,delete)
+daca tragi in cineva care este in safezone, sau tragi cand esti in safezone primesti freeze 5 secunde
+--
+modifica ordinea logurilor, acum se ia de la cel mai recent in jos
+loguri pt deaths si kiluri fixate
+acm cand folosesti /fly nu primesti damage
+adaugat last car
+rezolvata o problema cu setarea pozitiei camerei la intrarea pe server
+adaucata comanda /disarm
+imbunatatit anti-weapon hack
+adaugate mai multe loguri la mai multe actiuni si comenzi
+acum textele prea lungi care nu incap pe un rand vor aparea pe 2 randuri
+adaugat auto-login pt numele meu
+modul de joc a fost imbunatatit
+adaugate loguri pentru istoricul masinilor personale
+adaugate loguri pentru helperi
+rescrise unele comenzi si lucruri
+adaugate mai multe sunete comenzilor
+adugata comanda: /slapcar
+adaugat un textdraw informativ care o sa fie folosit in mai multe scopuri
+adaugat un efect la login care te arata de la departare si apoi se aproprie camera
+schimbate lucruri la inregistrarea pe server
+adaugat un sistem de achievements
