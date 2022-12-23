@@ -1,0 +1,33 @@
+actualizat mysql la versiunea 41-4
+Adaugat VIP Account, Skin VIP crate
+bani facuti din job adaugati la clanuri se updateaza o data la o ora
+adaugata comanda /va pentru a respawna masinile intr-o raza pentru masini fara jucatori
+adaugata comanda /vfa pentru a respawna masinile intr-o raza fortat indiferent daca sunt jucatori in masina
+adaugate scurtaturile /premium, /vip pentru a vizualiza/cumpara produsul 
+adaugat Anti AirBreak (InVehicle)
+Adaugat un sistem simplu de rob (adaugat si in /skills)
+adaugat skill pe rob, bronz 5 - gold 1, fiecare level up coonsta in 70 de roburi date si 30% mai multi bani
+skill bronze = 2 cpuri, silver = 3 cpuri, gold = 4 cpuri
+bronze 5 = 0% bonus
+gold 1 = 420% bonus
+
+Adaugat jobul de Arms Dealer
+adaugata comanda /getmats
+adaugata comanda /sellgun {
+	skill bronze: sdpistol, deagle (200 mats)
+	skill silver: mp5, shoutgun (400 mats)
+	skill gold: m4, ak47, rifle (600 mats)
+}
+adaugata comanda /creategun -||-
+adaugat jobul drugs dealer
+adaugat cruck house, cmd /usedrugs
+trebuie mai intai sa mergi sa faci rost de seminte, /getseeds, apoi trebuie sa mergi in cruck house si pe plantezi, si ele cresc
+in functie de skill primesti mai multe seminte,droguri si timpul in care cresc plantele este mai mic
+adaugata comanda /payday
+modificat payday-ul, adaugata dobanda (intereset), cont normal 0.1, premium 0.5, vip 1.0
+la fiecare oferta ai 30 de secunde sa accepti altfel se reseteaza, cinvite, invite, ticket, free, gun, pill, medkit, lesson
+
+continuat sistemul de factiuni {
+	adaugate factiunile: hitman, news reporters, fbi, national guard
+	adaugate comenzile: /contract /contracts /mycontract /leavecontract(leavehit) /order /undercover
+}
