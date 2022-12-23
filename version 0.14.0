@@ -1,0 +1,49 @@
+::MODUL DE JOC A FOST MUTAT PE open.mp
+
+adaugat skinul si raritatea la /id
+rezolvat un bug atunci cand ascundeai accesoriile
+in chat scrie (A) sau (H) daca esti admin/helper
+adaugat confirmare cand cumperi un accesoriu
+daca esti aduty poti intra in orice masina job/server/personala
+viteza masinilor actualizata, inf are acum viteza maxima 223
+modificat warningul de la speed-hack \ este suspectat de folosire Speed-Hack [300 km/h, 223 maxim vehicle speed]
+***Adaugat anti-nitro hack
+adaugata comanda /addnos
+sistemul de cash/bank trecut in miliarde
+adaugata vreme pe server {
+	la fiecare payday se schimba (ploaie/furtuna/vant etc)
+	de la ora 22:00 pana la ora 06:00, este doar noapte
+}
+adaugate comenzile /nearplayers /cspec /fspec /smotd ( staff motd ) /anno /fmembers /cmembers /speaker
+adaugate comenzile /tod si /wheather ( modifici timpul si vremea de pe server doar pentru tine ) pentru VIP
+inceput sistemul de factions {
+	adaugate factiunile: lspd,lvpd,sfpd, taxi ls, taxi lv, taxi sf, paramedic ls, paramedic lv, paramedic sf, instuctori ls lv sf
+	poti intra in factiuni
+	comenzile /factions /hqs /gotohq /setleader /f /r /d /invite (accept invite) /l (lider chat) /lwarn /lwarnoff /lunwarn /lunwarnoff
+	/members > selectezi un membru > change rank / give warn / remove warn / remove from faction, /fvr /afvr /jaillist /alicenses
+	/auninvite(fpk) /auninviteoff /quitgroup /myblacklist /blacklist /gotojail /showmotd /megaphone /confiscate /clear /aclear /showlicenses
+	/su /so /cf /cuff /uncuff /mdc /wanted /frisk /ticket /radar /tazer /alias /free
+	spawnchange faction
+	adaugata comanda /svf, care va fi pentru toate factiunile
+	masinile din /svf de despawneaza la moarte
+	/addfactionmodel <faction id> <car model> <rank needed> <stock> <color1> <color2> - pentru a adauga masini in /svf
+	/editfactionmodel <faction>  - Edit model Edit rank Edit stock Edit Color 1 Edit Color 2 Delete this model from this faction
+	blacklist-ul dureaza 30 de zile si expira automat
+	adaugat jail cu curte
+	adaugata comanda /jail, /jailoff, /unjail, /unjailoff, /ajail, /ajailoff, /gotojail
+	/dm (dm general), /dmp ( dm weapon - scoate licenta de arme 2 ore)
+	adaugata comanda /duty, /fclothes /seatbelt /checkbelt
+	poti alege skin pentru atunci cand esti /duty prin comanda /fclothes
+	cand esti off-duty ai skinul personal
+	adaugate bariere si gate-uri pt lspd,lvpd,sfpd
+	adaugat un job pasiv in jail sa culegi gunoi si iti scad secundele, acest job se poate incepe cu /work, /stopwork
+	adaugat un timer la masinile din /svf, se despawneaza daca nu e nimeni in ele
+	adaugat raport la factiuni, poti seta raportul sa fie optional/obligatoriu din comanda /editfactionraport
+	adaugata comanda /myraport, raport-ul este diferit in functie de rank, raportul se updateaza cand rankul ti se schimba
+	raportul se reseteaza in fiecare luni la ora 0 dimineata
+	adaugata comanda /fare /cancel /calls /service /heal /sellpill /sellmedkit
+	adaugata comanda /instructors /startlesson /stoplesson
+	adaugate 3 intrebari la startlesson pentru fiecare licenta in parte
+	la inceput ti se afiseaza un dialog cu regulament si informatii apoi 3 intrebari 
+	daca gressesti o intrebare la final esuezi testul, daca il treci, instructorul este anuntat si primesti licenta automat
+}
