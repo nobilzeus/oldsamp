@@ -1,0 +1,112 @@
+adaugat sistem de accesory {
+	comanda /buyaccs,/editaccs/myaccs
+	accesoriile se salveaza dupa relog
+	poti echipa toate cele 7 categorii de accesorii
+	poti edita toate accesoriile pe care le ai
+	poti sterge accesoriile
+	momentan nu este o limita, poti detine toate cele 105 accesory
+	unele detalii ale accesoriilor pot fi editate de admini direct din joc
+}
+adaugat sistem de pet {
+	comanda /pet
+	petul se salveaza dupa relog
+	pozitia petului se poate modifica
+	poti cumpara alt model de pet dintre cele 11 disponibile: Parrot,Shark,Deer,Skull,Cow,CowBoy,Fish,Beer,Cash,House,Plane
+	numele se poate schimba
+	poti reseta pozitia petului la default
+	primesti pet xp doar la job/payday (nivelul creste automat cand faci xp necesar)
+	avantajele petului sunt: 
+	-castigi cu 1% mai multi bani la joburi
+	-primesti cu 1% mai multa experienta
+	-un rob point in plus la payday
+	-primesti cu 1% mai mult timp jucat la payday
+	-Petul poate fi crescut pana la nivel 10
+	Toate atributele cresc odata cu nivelul petului
+}
+Nu mai poti deschide meniul de prieteni de pe tasta Y, aceasta a fost inlocuit cu inventarul
+adaugat sistem de invetar {
+	pentru a deschide inventarul poti apasa pe tasta Y, sau comanda /inventory
+	poti vedea/selecta vehiculele/accesoriile/skinurile tale
+	cateva informatii despre contul tau aditionale
+}
+adaugat sistem de skinuri personale {
+	un jucator poate detine pana la 100 skinuri
+	sistem de skinuri au bonusuri
+	in functie de cate sloturi de bonusuri are un skin este mai rar
+	raritati: iron - 0 bonusuri, bronze - 1 bonus, silver - 2 bonusuri, gold - 3 bonusuri, diamond - 4 busuri, platinium - 5 bonusuri
+	11 skinuri sunt gratis, iar restul trebuie castigate din crate-uri
+	skinuri pot avea bonusuri care pica la intamplare, aceastea pot fi urmatoarele:
+	iron : no bonus { 
+	}
+	bronze: 1bonus random{
+		1%-10% mai multi bani la job
+		1%-10% mai multi bani la payday
+	}
+	silver: 2bonus random {
+		5-15% mai multi bani la job
+		5-15% mai multi bani la payday
+		5-10% mai mult timp jucat la payday
+		1-10% mai multa experienta
+	}
+	gold: 3 bonus random {
+		10-20% mai multi bani la job
+		10-20% mai multi bani la payday
+		10-15% mai mult timp jucat la payday
+		5-15% mai multa experienta
+		Nu ti se mai face foame
+		1-10% sansa plata dubla la job
+		1-20% mai multi bani la depozitatea in clan
+	}
+	diamond: 4 bonus random {
+		15-30% mai multi bani la job
+		15-30% mai multi bani la payday
+		15-25% mai mult timp jucat la payday
+		15-30% mai multa experienta
+		Nu ti se mai face foame
+		5-15% sansa plata dubla la job
+		15-40% mai multi bani la depozitatea in clan
+		Regenerare 1-2 hp la fiecare minut
+		1-3% sa castigi 1 punct premium la job
+	} 
+	platinium: 5 bonus random {
+		25-40% mai multi bani la job
+		25-40% mai multi bani la payday
+		25-40% mai mult timp jucat la payday
+		25-40% mai multa experienta
+		Nu ti se mai face foame
+		10-20% sansa plata dubla la job
+		25-50% mai multi bani la depozitatea in clan
+		Regenerare 2-4 hp la fiecare minut
+		HP creste la 110-130
+		3-7% sa castigi 1 punct premium la job
+		acces la /find fara job detectiv
+		poti pescuii 2 pesti la fish
+	} 
+	fiecare skin are bonusuri unice, nu vor fi 2 bonusuri la fel pe un skin
+
+}
+adaugat sistem de crate-uri {
+	adaugat skin random crate ( iron bronze silver gold)
+	skin premium crate (silver gold diamong platinium)
+	textdraw-urile se afiseaza in ordine, nu random
+	textdraw-urile se ascund dupa 5 secunde de la primirea premiului
+	in cazul in care iei crash, crate-ul se scade cand primesti premiul
+}
+adaugat sistem de combinat skinuri {
+	poti combine 2 skinuri din acelasi tip pentru a castiga un skin cu o categorie mai mare, dar vei pierde cele 2 skinuri
+	exista o sansa, daca reusesti castigi skinul si pierzi skinurile adaugata
+	daca esueaza vei pierde un singur skin si nu vei primii nimic
+	nu poti combina skinuri diferite
+	nu poti combina skinuri din ultima categorie(platinium)
+	combinarea este instanta
+	daca reuseste combinatul primesti un skin random cu bonusuri random, si valorile bonusurilor random, dar din aceea categorie ( mai sus lista cu bonusuri )
+}
+numarul maxim de vehicule personale per jucator este de 30. poti cumpara doar 8 sloturi din /shop, 2 de la cont premium, iar restul trebuie castigate
+modificata comanda /v, pe pagini, apar cate 10 masini per pagina
+scoasa optiunea de spawnare a tuturor masinilor din /v
+numarul maxim de accesorii pe care le poti detine este 100
+scos include-ul mSelection, nu mai este necesar
+schimbat sistemul de /clothes, acum este pe td
+adaugat market in /gps
+adaugat skins in MARKET, acum poti vinde si skinuri
+adaugat jobul detectiv
