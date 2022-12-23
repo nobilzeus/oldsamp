@@ -1,0 +1,25 @@
+-rezolvat un bug la market(la stergerea unui item)
+-rezolvat un bug la market(la filtrarea unui vehicul)
+
+-adaugat daily reward {
+	zilnic trebuie sa joci 2 ore pentru o recompensa
+	zilnic trebuie sa muncesti de 10 ori pentru o recompensa
+	zilnic trebuie sa aduni 500 experienta pentru o recompensa
+}
+-adaugat market {
+	poti vinde case/masini/bizuri
+	nu poti vinde  case/masini/bizuri si in market si in sellhouse/trade in acelasi timp
+	poti pune un item la vanzare si apoi sa iesi de pe server, itemele pot fi cumparate si daca nu esti pe server
+	primesti notificare si email cand intri pe server daca cineva ti-a cumparat itemul
+}
+-adaugat job boost 50%/experience boost 50% in shop
+-adaugata comanda /staff pentru a vedea statistici
+-adaugate comenzile /awarn, /awarnoff, /aunwarn, /aunwarnoff, /hwarn, /hwarnoff, /hunwarn, /hunwarnoff la 3/3 iei remove automat online sau offline
+-acum la 30 de zile de la primirea unui warn/admin warn/helper warn va expira automat
+-adaugat comanda /startevent event +50% jobmoney,+50% experience, doublu payday , /stopevent . o data la 10 min da un mesaj sa aminteasca ca eventul e activ
+-adaugat iphone in /shop, comanda /reply pt iphone
+-adaugat MP3 in /shop, poti asculta muzica oriunde, atunci cand asculti MP3, oriunde ai intra casa/biz/masina muzica nu se va schimba/oprii, mp3-ul este prioritar pana il stingi
+-adaugat cont premium in /shop, {
+titlu 'Premium User' deasupra capului\n-payday majorat cu 50%\n-acces la chat-ul premium (/pc)\n-nume colorat in chat (/pcolor)\n-posibilitatea de a adauga 5 iteme in market\n-posibilitatea de a bloca mesajele private (whisper) prin comanda /tog\n-la rob se vor pierde 7 puncte (10 in mod normal)\n-/ad-uri PREMIUM\n-posibilitatea de a plasa /ad de oriunde\n-injumatatit timpul de asteptare la /ad\n-venit crescut la joburi cu 30%\n-afacerea ta va produce cu 10% mai mult\n-badge PREMIUM pe panel\n-poti aduna pana la 20 puncte de rob, + 2 sloturi de vehicule
+}
+-adaugat comanda /tog - Newbie questions (/n), Frequency chat (/wt), Whisper (/w), Auctions, Clan Chat, Sound hit players (ding), Surf Vehicle, Premium Chat, Ads (/ad), Job Message & textdraws
